@@ -2,7 +2,6 @@
 
 <h1>Tasks</h1>
 
-<%# 検索フォーム %>
 <%= search_form_for @q do |f| %>
   <%= f.label :title_or_description, 'キーワード' %>
   <%= f.search_field :title_or_description_cont %>
